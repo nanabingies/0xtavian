@@ -54,7 +54,7 @@ namespace thread_pool {
 
         std::cout << message.str();
         std::cout << endl;
-        //popen_exec(op, vec);
+        popen_exec(op, vec);
     }
 
     void task(size_t i) {
