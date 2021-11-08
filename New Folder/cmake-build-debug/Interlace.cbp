@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Interlace"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kali/Documents/Interlace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kali/Documents/Interlace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kali/Documents/Interlace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Interlace">
+				<Option output="/home/kali/Documents/Interlace/cmake-build-debug/Interlace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kali/Documents/Interlace/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 Interlace"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Interlace/fast">
+				<Option output="/home/kali/Documents/Interlace/cmake-build-debug/Interlace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kali/Documents/Interlace/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 Interlace/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kali/Documents/Interlace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kali/Documents/Interlace/Executer.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/Header.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/Input.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/InputFile.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/Output.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/concurrent_queue.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/files/InputHelper.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/files/thread.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/files/threader.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/main.cpp">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/subprocess.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/thread_pool.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/thread_pool_executor.h">
+			<Option target="Interlace"/>
+		</Unit>
+		<Unit filename="/home/kali/Documents/Interlace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

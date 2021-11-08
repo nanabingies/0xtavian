@@ -1,0 +1,5 @@
+google.com
+facebook.com
+aol.com
+myspace.com
+golang.com
