@@ -1,6 +1,3 @@
-//
-// Created by kali on 11/6/21.
-//
 
 #ifndef INTERLACE_THREAD_POOL_H
 #define INTERLACE_THREAD_POOL_H
