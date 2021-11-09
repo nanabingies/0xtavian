@@ -1,6 +1,3 @@
-//
-// Created by kali on 11/6/21.
-//
 
 #ifndef INTERLACE_EXECUTER_H
 #define INTERLACE_EXECUTER_H
@@ -22,10 +19,6 @@ namespace Executer {
 
     void ExecuteWithoutPorts(vector<string> comm, string targetFile, string thr, string c) {
         InputFile::InputFile f;
-        //std::cout << "[+] Arguments Passed.\n";
-        /*for (auto com : comm)
-            if (com != "")
-                cout << com << endl;*/
 
         vector<string> commandstoExecute = {};
         vector<string>  com{}, cop;
@@ -33,19 +26,13 @@ namespace Executer {
 
 
         commandstoExecute = f._process_files(targetFile);
-        /*cout << "\n[+] Commands to execute\n";
-        for (auto command : commandstoExecute) {
-            cout << command << endl;
-        }*/
+        
 
         ccc.push_back(c);
 
         cout << endl << endl;
 
         com = f._replace_target_variables_in_commands(ccc, commandstoExecute, commandstoExecute, "99");
-
-        /*for (auto aut : com)
-            cout << aut << endl;*/
 
         usleep(5);
         thread_pool::run(com, (int)stoi(thr));
@@ -56,10 +43,6 @@ namespace Executer {
     void ExecuteWithPorts(vector<string> comm, string targetFile, string thr, string c,
                           vector<string> ports) {
         InputFile::InputFile f;
-        /*std::cout << "[+] Arguments Passed.\n";
-        for (auto com : comm)
-            if (com != "")
-                cout << com << endl;*/
 
         vector<string> commandstoExecute = {};
         vector<string>  com{}, cop;
@@ -67,10 +50,6 @@ namespace Executer {
 
 
         commandstoExecute = f._process_files(targetFile);
-        /*cout << "\n[+] Commands to execute\n";
-        for (auto command : commandstoExecute) {
-            cout << command << endl;
-        }*/
 
         ccc.push_back(c);
 
