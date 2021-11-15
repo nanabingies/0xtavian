@@ -1,2 +1,2 @@
 # 0xtavian
-Interlace C++
+Interlace C++ implementation
